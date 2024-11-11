@@ -1,5 +1,6 @@
 # Usando a função click
 import pyautogui
+import webbrowser
 from time import sleep
 import pyperclip # Usar caracteres especiais
 
@@ -80,4 +81,8 @@ import pyperclip # Usar caracteres especiais
 # Print da tela inteira
 # pyautogui.screenshot('tela.png')
 # Print da personalizado
-pyautogui.screenshot('passagem.png', region=(500,596,1000,300))
+# pyautogui.screenshot('passagem.png', region=(500,596,1000,300))
+
+# Automação de sites com PyAutoGUI
+
+webbrowser.open('https://www.decolar.com/shop/flights/results/roundtrip/MAB/CNF/2025-01-19/2025-01-19/1/0/0?from=SB&di=1&reSearch=true#showModal')
